@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ComputationalExpressions.fs" />
+    <Compile Include="MaybeBuilder.fs" />
+    <Compile Include="OrElseBuilder.fs" />
+    <Compile Include="strToIntWorkflow.fs" />
+    <Compile Include="IdentityWorkflowImp.fs" />
+    <Compile Include="BuilderWithCombineSeqImp.fs" />
+    <Compile Include="ListWorkflowImp.fs" />
+    <Compile Include="TraceBuilderImp.fs" />
+    <Compile Include="MaybeBuilderWithLaziness.fs" />
+    <Compile Include="IntegerAddedBuilderImp.fs" />
+    <Compile Include="BuilderWithAdditionalMethodsImp.fs" />
+    <Compile Include="ExercisesProject.fs" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+</Project>
